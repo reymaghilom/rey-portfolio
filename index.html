@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Rey Maghilom — aspiring web developer and data entry specialist.">
+  <title>Rey Maghilom | Portfolio</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg?v=2">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .avatar{overflow:hidden;background:#314c41;border:2px solid #d2ed65}
+    .avatar img{width:100%;height:100%;object-fit:cover;object-position:center 18%}
+    .monogram{display:block;width:152px}.monogram img{display:block;width:100%;height:auto}
+    .project-card{border:0;text-align:left;width:100%;font-family:inherit;cursor:pointer;transition:transform .2s,box-shadow .2s}.project-card:hover{transform:translateY(-5px);box-shadow:0 14px 28px #18231f24}.project-card:focus-visible{outline:3px solid #d2ed65;outline-offset:3px}.project-modal{position:fixed;inset:0;z-index:20;display:grid;place-items:center;padding:1.5rem;background:#18231fbf;opacity:0;visibility:hidden;transition:.2s}.project-modal.open{opacity:1;visibility:visible}.modal-box{max-width:460px;width:100%;padding:2.25rem;background:#f7f6f2;box-shadow:0 20px 60px #0005;transform:translateY(12px);transition:.2s}.project-modal.open .modal-box{transform:none}.modal-close{float:right;border:0;background:none;font-size:1.6rem;line-height:1;cursor:pointer}.modal-box h2{font-size:2rem;letter-spacing:-.06em;margin:1rem 0 .8rem}.modal-box p{line-height:1.7;color:#52605a}.modal-action{display:inline-block;margin-top:1rem;background:#18231f;color:#fff;text-decoration:none;padding:.8rem 1rem;font:500 .68rem 'DM Mono',monospace;letter-spacing:.1em}
+    .education-grid{margin-top:2rem;padding:1.6rem;background:#e7eee7;display:grid;grid-template-columns:1fr auto;gap:1rem}.education-grid h3{font-size:1.3rem;letter-spacing:-.04em;margin:0 0 .5rem}.education-grid p{margin:0;color:#52605a;line-height:1.65}.education-grid span{font:500 .7rem 'DM Mono',monospace;color:#52605a}.cv-button{display:inline-block;margin-top:1.7rem;background:#d2ed65;color:#18231f;padding:.9rem 1rem;text-decoration:none;font:600 .7rem 'DM Mono',monospace;letter-spacing:.08em}.contact-form{max-width:620px;margin-top:2.4rem;display:grid;gap:1rem}.contact-form input,.contact-form textarea{width:100%;padding:.9rem 0;border:0;border-bottom:1px solid #aeb7b0;background:transparent;font:inherit;color:#18231f;outline:none}.contact-form input:focus,.contact-form textarea:focus{border-color:#28534a}.contact-form textarea{min-height:105px;resize:vertical}.contact-form button{justify-self:start;border:0;background:#18231f;color:#fff;padding:.9rem 1.1rem;font:500 .7rem 'DM Mono',monospace;letter-spacing:.08em}.form-note{font-size:.75rem!important;margin:.2rem 0 0!important}@media(max-width:520px){.education-grid{grid-template-columns:1fr}.education-grid span{order:-1}}
+    .back-to-top{position:fixed;right:1.5rem;bottom:1.5rem;width:48px;height:48px;border:0;border-radius:50%;background:#18231f;color:#d2ed65;font-size:1.4rem;box-shadow:0 8px 24px #0003;cursor:pointer;z-index:10;opacity:0;visibility:hidden;transform:translateY(12px);transition:.25s}.back-to-top.show{opacity:1;visibility:visible;transform:none}.back-to-top:hover{background:#28534a}.back-to-top:focus-visible{outline:3px solid #d2ed65;outline-offset:3px}
+  </style>
+</head>
+<body>
+  <div class="page-shell">
+    <aside class="profile-panel">
+      <a class="monogram" href="#top" aria-label="Rey Maghilom home"><img src="assets/rey-logo.svg" alt="RM — Rey Maghilom logo"></a>
+      <div class="profile-main">
+        <div class="avatar"><img src="assets/rey-maghilom.png" alt="Portrait of Rey Maghilom"></div>
+        <p class="availability"><i></i> AVAILABLE FOR OPPORTUNITIES</p>
+        <h1>Rey<br>Maghilom</h1>
+        <p class="role">Aspiring Web Developer<br>&amp; Data Entry Specialist</p>
+      </div>
+      <div class="profile-bottom">
+        <a href="mailto:reycahansa@gmail.com">reycahansa@gmail.com ↗</a>
+        <p>PHILIPPINES · 2026</p>
+      </div>
+    </aside>
+
+    <main id="top" class="content-panel">
+      <nav class="top-nav">
+        <span>PORTFOLIO / 01</span>
+        <div><a href="#about">About</a><a href="#education">Education</a><a href="#projects">Projects</a><a href="#contact">Contact</a></div>
+      </nav>
+
+      <section id="about" class="intro section-block">
+        <p class="eyebrow">01 / INTRODUCTION</p>
+        <h2>I build practical web experiences with <em>care and clarity.</em></h2>
+        <p class="intro-copy">I am an aspiring web developer with hands-on experience from academic projects. I work with PHP, MySQL, CSS, JavaScript, and Bootstrap to create responsive, user-friendly websites. I also bring dependable data-entry skills and strong attention to detail.</p>
+        <a class="outline-button" href="#projects">EXPLORE MY WORK <span>↓</span></a>
+      </section>
+
+      <section class="skills section-block">
+        <div class="section-heading"><p class="eyebrow">02 / CAPABILITIES</p><span>WHAT I CAN DO</span></div>
+        <div class="skill-list">
+          <div class="skill-row"><span class="num">01</span><div><h3>Web Development</h3><p>PHP · MySQL · HTML · CSS · JavaScript · Bootstrap</p></div></div>
+          <div class="skill-row"><span class="num">02</span><div><h3>Responsive Interfaces</h3><p>Mobile-friendly layouts · clean user experiences</p></div></div>
+          <div class="skill-row"><span class="num">03</span><div><h3>Data Entry</h3><p>Excel · Google Sheets · data organization · accuracy checks</p></div></div>
+        </div>
+      </section>
+
+      <section id="education" class="education section-block">
+        <div class="section-heading"><p class="eyebrow">03 / EDUCATION</p><span>ACADEMIC BACKGROUND</span></div>
+        <div class="education-grid"><div><h3>Bachelor of Science in Information Technology</h3><p>Major in Management Information System<br>Mindanao State University – Naawan, Misamis Oriental</p></div><span>2008 — 2013</span></div>
+        <div class="education-grid"><div><h3>General Science Curriculum</h3><p>MSU – Naawan Integrated Laboratory Science High School<br>Naawan, Misamis Oriental</p></div><span>2003 — 2007</span></div>
+        <div class="education-grid"><div><h3>Elementary Education</h3><p>Patag Elementary School<br>Patag, Manticao, Misamis Oriental</p></div><span>1997 — 2003</span></div>
+        <a class="cv-button" href="cv.html" download="Rey-Maghilom-CV.html">DOWNLOAD MY CV ↓</a>
+      </section>
+
+      <section id="projects" class="projects section-block">
+        <div class="section-heading"><p class="eyebrow">04 / SELECTED WORK</p><span>ACADEMIC PROJECTS</span></div>
+        <div class="project-grid">
+          <button class="project-card card-green" type="button" data-project="Student Record System"><span class="project-no">01</span><div><p>PHP · MYSQL · BOOTSTRAP</p><h3>Student Record<br>System</h3><span class="arrow">↗</span></div></button>
+          <button class="project-card card-cream" type="button" data-project="Inventory System"><span class="project-no">02</span><div><p>PHP · MYSQL · JAVASCRIPT</p><h3>Inventory<br>System</h3><span class="arrow">↗</span></div></button>
+          <button class="project-card card-blue" type="button" data-project="Responsive School Website"><span class="project-no">03</span><div><p>HTML · CSS · BOOTSTRAP</p><h3>Responsive School<br>Website</h3><span class="arrow">↗</span></div></button>
+        </div>
+      </section>
+
+      <section id="contact" class="contact section-block">
+        <p class="eyebrow">05 / CONTACT</p>
+        <h2>Let’s work<br><em>together.</em></h2>
+        <p>Looking for an entry-level web developer or a detail-oriented data-entry specialist? I would love to connect.</p>
+        <form class="contact-form" id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="4f3d9be2-c5f5-472e-bf6f-b115ab0422ee">
+          <input type="hidden" name="subject" value="New portfolio inquiry">
+          <input type="checkbox" name="botcheck" class="d-none" tabindex="-1" autocomplete="off">
+          <input id="senderName" name="name" type="text" placeholder="Your name" required>
+          <input id="senderEmail" name="email" type="email" placeholder="Your email" required>
+          <textarea id="senderMessage" name="message" placeholder="Your message" required></textarea>
+          <button type="submit">SEND MESSAGE ↗</button>
+          <p class="form-note" id="formStatus" aria-live="polite">Messages are sent directly to Rey's email inbox.</p>
+        </form>
+      </section>
+      <div class="project-modal" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
+        <div class="modal-box"><button class="modal-close" type="button" aria-label="Close popup">×</button><p class="eyebrow">PROJECT UPDATE</p><h2 id="modalTitle">Project</h2><p>This project is being prepared for upload. A live demo and more details will be available soon.</p><a class="modal-action" href="#contact">CONTACT REY ↗</a></div>
+      </div>
+      <footer>© <span id="year"></span> REY MAGHILOM · DESIGNED WITH PURPOSE</footer>
+    </main>
+  </div>
+  <button class="back-to-top" id="backToTop" type="button" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
