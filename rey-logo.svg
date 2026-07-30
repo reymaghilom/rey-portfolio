@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 96" role="img" aria-labelledby="title">
-  <title id="title">RM personal logo for Rey Maghilom</title>
-  <rect width="240" height="96" rx="14" fill="#18231f"/>
-  <path d="M28 70V26h19c14 0 22 7 22 18 0 8-4 14-11 17l14 19H56L44 62h-5v18H28Zm11-27h7c7 0 11-3 11-8.5S53 26 46 26h-7v17Z" fill="#f7f6f2"/>
-  <path d="M82 70V26h12l13 20 13-20h12v44h-11V45L110 62h-6L93 45v25H82Z" fill="#d2ed65"/>
-  <path d="M151 28h60" stroke="#d2ed65" stroke-width="2"/>
-  <text x="151" y="49" fill="#f7f6f2" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2">REY</text>
-  <text x="151" y="68" fill="#9faca3" font-family="Arial, sans-serif" font-size="10" letter-spacing="2">MAGHILOM</text>
-</svg>
